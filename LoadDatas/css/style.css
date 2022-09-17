@@ -1,0 +1,42 @@
+body{
+	font-family:roboto;
+	background:#ecf0f1;
+}
+.card {
+background:white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:50%;
+  margin-top:20px;
+  padding:5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+table{
+	float:left;
+	margin-left:15px;
+}
+table {
+text-align:left;
+}
+hr{
+	 clear:both;
+	 border:none;
+}
+
+#btnLoad{
+	height:50px;
+	width:150px;
+	background:green;
+	color:white;
+	border:none;
+	margin-top:15px;
+	font-size:20px;
+}

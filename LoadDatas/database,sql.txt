@@ -1,0 +1,37 @@
+
+CREATE DATABASE IF NOT EXISTS tutor;
+USE tutor;
+
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `ID` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+  `NAME` varchar(255) DEFAULT NULL,
+  `AGE` mediumint(9) DEFAULT NULL,
+  `CITY` varchar(255) DEFAULT NULL,
+  `EMAIL` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ID`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
+
+
+INSERT INTO `users` (`ID`,`NAME`,`AGE`,`CITY`,`EMAIL`) VALUES 
+ (1,'Harding',23,'Castel del Giudice','amet@ipsum.edu'),
+ (2,'Idona',18,'Arviat','volutpat.ornare.facilisis@volutpatornare.co.uk'),
+ (3,'Reagan',25,'Bethune','Fusce@congueturpis.edu'),
+ (4,'Clinton',24,'Ballarat','non.massa@eget.ca'),
+ (5,'Grant',19,'Bhiwani','rutrum.Fusce.dolor@pedeultrices.com'),
+ (6,'Warren',28,'Bowling Green','at@metus.ca'),
+ (7,'Stuart',30,'Rabbi','fringilla.porttitor@semmolestie.com'),
+ (8,'Tanner',33,'Cincinnati','dui.in.sodales@sitametlorem.net'),
+ (9,'Maris',19,'Obertshausen','dictum@et.net'),
+ (10,'Cecilia',35,'Poggio San Marcello','egestas.Aliquam.nec@elitpellentesquea.org'),
+ (11,'Brenden',25,'Yellowknife','in.tempus.eu@consequat.edu'),
+ (12,'Joan',34,'Columbus','Donec.tincidunt@noncursusnon.com'),
+ (13,'Carlos',29,'Tire','posuere.cubilia@ipsum.net'),
+ (14,'Jolie',25,'Turriff','Suspendisse.ac.metus@odioAliquamvulputate.edu'),
+ (15,'Abra',33,'Bhiwandi','dui@Nam.net'),
+ (16,'Carla',23,'Waitakere','faucibus.orci.luctus@aliquetPhasellus.ca'),
+ (17,'Mara',30,'Grezzana','consequat.enim.diam@odio.ca'),
+ (18,'Xerxes',18,'Guben','ridiculus.mus.Donec@risusNunc.org'),
+ (19,'Igor',22,'Rotello','ac.tellus.Suspendisse@facilisi.org'),
+ (20,'Sebastian',24,'Manchester','mi@adipiscinglobortis.co.uk');

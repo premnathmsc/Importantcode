@@ -1,0 +1,12 @@
+<div class='card'>
+  <img src='img/pic.png' alt='Avatar'>
+  <div class='container'>
+	   <table> 	
+				<tr><th>Name </th><td>Ram Kumar</td></tr>
+				<tr><th>Age  </th><td>25</td></tr>
+				<tr><th>City </th><td>Salem</td></tr>
+				<tr><th>Email</th><td>ram@gmail.com</td></tr>
+	   </table> 
+	<hr>
+  </div>
+</div>
